@@ -106,6 +106,7 @@ class RailSimulator:
             "train_name": self._rng.choice(TRAIN_NAMES),
             "from_station": from_st,
             "to_station": to_st,
+            "platform": str(self._rng.integers(1, 18)),
             "distance_km": dist,
             "scheduled_departure": sched_dep,
             "delay_minutes": delay,
